@@ -5,8 +5,8 @@ public class Methods {
         String str = "Hello World!";
         System.out.println(str.length());
 
-        String name = "Code";
-        name = name.concat("cademy");
+        String name = "Rwanda";
+        name = name.concat(" Coding Academy");
         System.out.println(name);
 
         String flavor1 = "Mango";
@@ -22,11 +22,24 @@ public class Methods {
 
         String line = "It was the best of times, it was the worst of times.";
         System.out.println(line.substring(26));
+
         System.out.println(line.substring(7, 24));
 
         String input = "Cricket!";
         System.out.println(input.toUpperCase());
+
         System.out.println(input.toLowerCase());
 
+
+        //12
+        //Rwanda Coding Academy
+        //false
+        //2
+        //4
+        //n
+        //it was the worst of times.
+        //the best of times
+        //CRICKET!
+        //cricket!
     }
 }
