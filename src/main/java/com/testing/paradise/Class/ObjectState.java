@@ -18,5 +18,7 @@ class ObjectState {
         ObjectState whale2 = new ObjectState("beluga", 3000);
         System.out.println(whale1);
         System.out.println(whale2);
+        // This is a narwhal whale which weighs about 2100 pounds.
+        // This is a beluga whale which weighs about 3000 pounds.
     }
 }
