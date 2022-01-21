@@ -45,10 +45,6 @@ public class ExcelTest {
             i++;
         }
 
-        System.out.println("================================");
-        System.out.println(data);
-        System.out.println("================================");
-
     }
 
 }
