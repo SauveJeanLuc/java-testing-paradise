@@ -14,9 +14,8 @@ public class ConditionCheck {
             System.out.println("Reached");
         }
 
-        String checkEquals = "DENIED";
-
-        if(checkEquals.equals(ERole.DENIED.name())){
+        String checkEquals = "DENIEDW";
+        if(! (checkEquals.equals(ERole.DENIED.name()) || checkEquals.equals(ERole.SERIALIZED.name() ) )){
             System.out.println("Yes Enum is String");
         }
 
