@@ -21,5 +21,16 @@ public class QueueDemo {
             front++;
     }
 
+    int dequeue(){
+        int x = -1;
+            if(front == -1)
+                System.out.println("underflow");
+            else
+                x = arr[front++];
+            if(rear == 0)
+                rear--;
+            return x;
+    }
+
 
 }
