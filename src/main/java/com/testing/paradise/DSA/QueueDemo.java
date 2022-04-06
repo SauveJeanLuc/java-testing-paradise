@@ -1,12 +1,12 @@
 package com.testing.paradise.DSA;
 
-public class QueueDemo {
+class Queue {
 
     int front;
     int rear;
     int[] arr;
 
-    QueueDemo(){
+    Queue(){
         front = rear = -1;
         arr = new int[10];
     }
@@ -32,5 +32,23 @@ public class QueueDemo {
             return x;
     }
 
+    void display(){
+        for(int i = front; i<=rear; i++)
+            System.out.print(arr[i]+"");
 
+        System.out.println();
+    }
+
+}
+
+public class QueueDemo{
+
+    public static void main(String[] args) {
+        Queue embeddedQueue = new Queue();
+        embeddedQueue.enqueue(34);
+        embeddedQueue.enqueue(45);
+        embeddedQueue.display();
+        embeddedQueue.dequeue();
+        embeddedQueue.display();
+    }
 }
